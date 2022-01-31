@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-button-prev {
+    color: #000 !important;
+}
+
+.swiper-button-next {
+    color: #000 !important;
+}
+
+.swiper-pagination-bullet-active{
+    background: #019482 !important;
+}
+
+
+.circle-progress{
+    height: 100px;
+    width: 100px;
+}
+.circle-progress-value{
+    stroke: #019482;
+}
+
+.circle-progress-text{
+    font-size: 36px;
+    fill: #000 !important;
+}
